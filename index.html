@@ -1,42 +1,44 @@
 </head> 
+<link rel="stylesheet" href="css/main.css">
 <body id="bodyStarts">
    <!--Header section -->
-  <!--alert message--> <script type=”text/javascript”>    alert(“ Ceramic Coating Plus”); </script> 
-  <header>
-     
-    <div class=”navbar navbar-default navbar-fixed-top”>
+  <!--alert message-->
+    <script type=”text/javascript”>    alert(“ Ceramic Coating Plus”); </script> 
+
+    <header>
+       
+      <div class="navbar navbar-default navbar-fixed-top">
        
       <center>
        
-      <div class=”menu-bar-container” onclick=”openMenuBar()”>
+      <div class="menu-bar-container" onclick="openMenuBar()">
          
-        <div class=”menu-bar1”></div>
+        <div class="menu-bar1"></div>
          
-        <div class=”menu-bar2”></div>
-         
-      </div>
-        
+        <div class="menu-bar2"></div>
 
-    </div>
-     <!--Menu items--> 
-    <div id=”sideMenuItems” class=”sideMenuBar”>
-       <span class=”closeMenuBtn” onclick=”closeMenuBar()” style=”color:red; ”>&times;</span>
+
+      </div>
+       <!--Menu items--> 
+      <div id="sideMenuItems" class="sideMenuBar">
+         <span class="closeMenuBtn" onclick="closeMenuBar()" style="color:red;">&times;</span>
       <hr>
-       <a href=”index.html”>Home</a>
+       <a href=index.html>Home</a>
       <hr>
-       <a href=”login.html”>Login</a>
+       <a href=html/login.html>Login</a>
       <hr>
-       <a href=”down.html”>Downloads</a>
+       <a href=html/down.html>Downloads</a>
       <hr>
-       <a href=”about.html">About Us</a>
+       <a href=html/about.html>About Us</a>
       <hr>
-       <a href=”contact.html">Contact Us</a>
-      <hr>
-       
-    </div>
-       <br><br><br><br>
-       
-  </header>
+       <a href=html/contact.html>Contact Us</a>
+       <hr>
+      </div>
+         <br><br><br><br>
+         
+    </header>
+
+
    
   <div class=”container”>
    
@@ -46,7 +48,19 @@
      
     <center style=”font-size: 50px”>
     <p >Welcome to our page</p>
-            <a href=”#dvcal” style=”text-decoration: none;font-size: 15px; ”>Basic Calculator</a><br><br>        <a href=”#dv1” style=”text-decoration: none;font-size: 15px; ”>Goto Div1</a><br><br>        <a href="#dv2" style="text-decoration: none;font-size: 15px; ”>Goto Div2</a><br><br>        <a href="#dv3" style="text-decoration: none;font-size: 15px; ”>Goto Div3</a><br><br>  </div><br><br> <div class="card-view" id="dv1"> 
+
+       <a href=#dvcal style=”text-decoration:none;font-size: 15px; ”>Basic Calculator</a>
+      <br><br> 
+      <a href=#dv1 style=”text-decoration:none;font-size: 15px; ”>Goto Div1</a>
+      <br><br> 
+      <a href=#dv2 style=”text-decoration:none;font-size: 15px; ”>Goto Div2</a>
+      <br><br> 
+      <a href=#dv3 style=”text-decoration:none;font-size: 15px; ”>Goto Div3</a>
+      <br><br>
+    </center>
+    </div>
+    <br><br>
+     <div id="dv1" class="card-view" > 
     <center style="font-size: 50px">
       <p >This Is Division 1</p>
        .<br>.<br>.<br> 
@@ -90,5 +104,7 @@
                 document.getElementById('res').value=Number(document.getElementById('num1').value)+Number(document.getElementById('num2').value);
     </div> </div> </div> <button class="backToTop" id="scrollTopId" onClick="BackToTop()"> <center><i>goto top</i></center>    </button> <script type="text/javascript" src="main.js">
   </script>
+    <script src="js/main.js"></script>
+
 </body>
  </html>
